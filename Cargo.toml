@@ -1,0 +1,14 @@
+[package]
+authors = ["Felix Prasanna <fpx@mit.edu>"]
+name = "joe"
+version = "0.1.0"
+edition = "2021"
+description = "Who is Joe?"
+documentation = "docs.rs/joe"
+repository = "https://github.com/fprasx/joe"
+# Joe mama is for everyone
+license = "GPL-3.0-or-later"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
