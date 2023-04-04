@@ -20,7 +20,7 @@ installed correctly.
 The `joe` crate also exposes a flexible API which you can use in your Rust
 software. To do so, add the following line to your `Cargo.toml`:
 ```
-joe = '1.0.0'
+joe = '1.1.1'
 ```
 or run `cargo add joe` in your terminal.
 

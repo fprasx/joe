@@ -8,7 +8,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     
     if let Some(arg) = args.next() {
         if arg == "--version" {
-            println!("joe --version? more like joe mama!");
+            println!("joe --version? more like joe --mama!");
             return Ok(());
         }
     }
