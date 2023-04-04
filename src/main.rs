@@ -1,7 +1,18 @@
 use std::io::{stdout, BufWriter, Write};
 use std::error::Error;
+use std::env;
 
 fn main() -> Result<(), Box<dyn Error>> {
+    let mut args = env::args();
+    args.next();
+    
+    if let Some(arg) = args.next() {
+        if arg == "--version" {
+            println!("joe: version 39514.0.0");
+            return Ok(());
+        }
+    }
+
     // Maximum efficiency for outputting the answer
     let stdout = stdout();
     let handle = stdout.lock();
